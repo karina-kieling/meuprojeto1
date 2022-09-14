@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #0E0E0E;
+    height:114px ;
+}
+
+.cabecalho_alinhamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.login_favoritos{
+    display: flex;
+    width: 493px;
+    justify-content: space-between;
+}
+
+.login_favoritos a{
+    font-family: 'Encode Sans', sans-serif;
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.login_favoritos a:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+
+.links{
+    background-color: #34353D85;
+    height: 62px;
+}
+
+.links_alinhamento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.links_alinhamento a{
+    font-family: 'Encode Sans', sans-serif;
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.links_alinhamento a:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+
+
+.banner{
+    background:linear-gradient(180deg, rgba(24, 4, 255, 0.89) 0%, rgba(35, 172, 13, 0.36) 100%);
+    height: 661px;
+}
+
+.propaganda_1{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+.texto_1 p{
+    font-family: 'Encode Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.texto_1 a{
+    display: grid;
+    font-family: 'Encode Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    background-color:#00EAF9;
+    font-size: 32px;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.texto_1 a:hover{
+    scale: 1.1;
+}
+
+.texto_2 p{
+    font-family: 'Encode Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    padding: 40px 0;
+}
+
+.texto_2 a{
+    display: grid;
+    font-family: 'Encode Sans', sans-serif;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    background-color:#00EAF9;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.texto_2 a:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+
+.contatos{
+    background-color:#0E0E0E ;
+    height: 183px;
+}
+
+.enderecos{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.enderecos a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Encode Sans', sans-serif;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.enderecos a:hover{
+    scale: 1.1;
+}
+
+.enderecos p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Encode Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0;
+}
